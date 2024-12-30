@@ -1,0 +1,365 @@
+/* Navbar css start*/
+.navbar{
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+
+}
+.nav-link{
+
+background-color: #FC8A06;
+padding-left: 50px;
+margin-left: 50px; 
+border-radius: 20px; 
+width: 100px;
+color: white;
+
+
+
+}
+#navbrand{
+
+color: black;
+
+
+
+}
+.navImage{
+  width: 150px;
+  height: 150px; 
+  padding-top: 0%;
+  size: 400px;
+}
+#home{
+  padding-left: 400px;
+}
+.off{ color: black;
+  
+  
+  margin-top: 50px;
+  margin-left: 130px;
+  
+}
+/* Navbar css end */
+.card-img-top:hover {
+    animation: pulse 1s alternate;
+  }
+  .fries:hover {
+    animation: pulse 1s alternate;
+  }
+  /* amaans part start */
+
+body,html{
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+}
+.restaurant-container{
+  background: linear-gradient(rgba(3, 8, 31, 0.8), rgba(3, 8, 31, 0.8)), 
+  url("burgerBg.png") center / cover no-repeat;
+  width: 1320px;
+  height: 477px;
+  align-items: center;
+  position: relative;
+  display: flex;
+  border-radius: 12px;
+  margin-left: 20px; 
+  /* /change accordingly// */
+}
+.burgerContent1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 4px;    
+  padding-left: 42px;
+}
+.mcP{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.mcH{
+  font-size: 44px;
+  font-weight: 600;
+  color: white;
+}
+
+.burger{
+  width: 581px;
+  height: 361px;
+  flex: 1;
+  z-index: 1;
+  border-radius: 12px;
+  margin-right: 14px;
+}
+.rating{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 140px; /* Increased width */
+  height: 160px; /* Increased height */
+  justify-content: space-between;
+  border-radius: 12px;
+  top: 280px;
+  right: 510px;
+  padding: 10px; /* Added padding for better spacing */
+  box-sizing: border-box; /* Ensures padding does not overflow */
+}
+.deliveryTime{
+  position: absolute;
+  width: 335px;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FC8A06;
+  border-radius: 8px;
+  left: 50px;
+  top: 450px;
+  color: white;
+  font-family: "poppins";
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  width: 583px;
+}
+.orderButton, .deliveryButton {
+  border-radius: 120px;
+  background-color: transparent;
+  width: 280px; /* Adjusted width for text and icon */
+  height: 63px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around; /* Distribute text and icon */
+  color: white;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.orderP ,.deliveryP{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'poppins';
+}
+.rate {
+  font-size: 70px; /* Adjusted font size */
+  font-weight: 400;
+  margin: 0; /* Removes any default margin */
+  line-height: 1; /* Ensures proper vertical alignment */
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+}
+
+.starLine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px; /* Space between stars */
+  margin-bottom: 4px; /* Reduces space below the stars */
+}
+
+.review {
+  font-size: 14px; /* Keeps text readable */
+  color: gray;
+  margin-top: 0; /* Removes any extra space above the review text */
+}
+/* amaans part end */
+  /* Maaz part start */
+  .content{
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: poppins;
+    margin-top: 40px;
+    border-radius:20px ;
+    margin-left:60px ;
+    margin-right:60px ; 
+    
+}
+.content-1{
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    padding:30px;
+    width: 496px; 
+    padding-left: 80px  ;
+}
+.content-2{
+    align-items: center;
+    justify-content:space-around;
+    flex: 1;
+    padding:30px;
+    width: 496px; 
+    padding-left: 80px  ;
+
+}
+.content-3{
+    align-items: center;
+    justify-content: space-around;
+    color: #fbfbfb;
+    background-color:#03081F;
+    font-weight: 400;
+    flex: 1;
+    padding: 30px;
+    padding-left: 80px  ; 
+    border-radius: 0px 20px 20px 0px;
+    
+}
+.content h2{
+    font-size: 32px;
+    font: 700;
+    display: flex;
+    gap: 3px;
+
+}
+span{
+    font-weight: 800;
+}
+/* Maaz part end */
+/* Footer css */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.brand-section {
+  max-width: 25%;
+}
+
+.brand-section h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.brand-section h3 span {
+  color: #FC8A06;
+}
+
+.app-links img {
+  width: 120px;
+  margin: 10px 0;
+}
+
+.newsletter-section {
+  max-width: 30%;
+  text-align: center;
+}
+
+.newsletter-section h4 {
+  font-size: 18px;
+}
+
+.newsletter-section form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.newsletter-section input {
+  flex: 1;
+  max-width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.newsletter-section button {
+  background-color: #FC8A06;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.newsletter-section p {
+  font-size: 12px;
+}
+
+.newsletter-section p {
+  color: #FC8A06;
+  border:solid 4px #f8f8f8;
+  border-radius:6px ;
+  text-decoration: none;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.links-section h4 {
+  font-size: 16px;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-section ul li {
+  margin: 5px 0;
+}
+
+.links-section ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border: 100%;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+}
+/* Footer Css end */
+  

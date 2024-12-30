@@ -1,0 +1,574 @@
+.body{
+    padding: 0;
+    margin: 0;
+  }
+  #navbar{
+      background-color: white;
+      margin-top: 20px;
+      margin-left: 20px;
+      
+    
+  }
+  .nav-link{
+  
+  background-color: #FC8A06;
+  padding-left: 50px;
+  margin-left: 50px; 
+  border-radius: 20px; 
+  width: 100px;
+  color: white;
+  
+  
+  
+  }
+  #navbrand{
+    
+    color: black;
+    
+    
+    
+  }
+  .navImage{
+      width: 150px;
+      height: 150px; 
+      padding-top: 0%;
+      size: 400px;
+  }
+  #home{
+      padding-left: 400px;
+  }
+  .off{ color: black;
+      
+      
+      margin-top: 50px;
+      margin-left: 130px;
+      
+  }
+  /* Navbar css end */
+  body,html{
+      padding: 0;
+      margin: 0;
+      font-family: "poppins";
+    }
+    .restaurant-container{
+      background: linear-gradient(rgba(3, 8, 31, 0.8), rgba(3, 8, 31, 0.8)), 
+      url("burgerBg.png") center / cover no-repeat;
+      width: 1320px;
+      height: 477px;
+      align-items: center;
+      position: relative;
+      display: flex;
+      border-radius: 12px;
+      margin-left: 20px; 
+      /* /change accordingly// */
+    }
+    .burgerContent1{
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      gap: 4px;    
+      padding-left: 42px;
+    }
+    .mcP{
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+    }
+    .mcH{
+      font-size: 44px;
+      font-weight: 600;
+      color: white;
+    }
+    
+    .burger{
+      width: 581px;
+      height: 361px;
+      flex: 1;
+      z-index: 1;
+      border-radius: 12px;
+      margin-right: 14px;
+    }
+    .rating{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: white;
+      width: 140px; /* Increased width */
+      height: 160px; /* Increased height */
+      justify-content: space-between;
+      border-radius: 12px;
+      top: 280px;
+      right: 510px;
+      padding: 10px; /* Added padding for better spacing */
+      box-sizing: border-box; /* Ensures padding does not overflow */
+    }
+    .deliveryTime{
+      position: absolute;
+      width: 335px;
+      height: 61px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FC8A06;
+      border-radius: 8px;
+      left: 50px;
+      top: 450px;
+      color: white;
+      font-family: "poppins";
+    }
+    
+    
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      width: 583px;
+    }
+    .orderButton, .deliveryButton {
+      border-radius: 120px;
+      background-color: transparent;
+      width: 280px; /* Adjusted width for text and icon */
+      height: 63px;
+      border: 1px solid white;
+      display: flex;
+      justify-content: space-around; /* Distribute text and icon */
+      color: white;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 400;
+    
+    }
+    .orderP ,.deliveryP{
+      font-size: 16px;
+      font-weight: 500;
+      font-family: 'poppins';
+    }
+    .rate {
+      font-size: 70px; /* Adjusted font size */
+      font-weight: 400;
+      margin: 0; /* Removes any default margin */
+      line-height: 1; /* Ensures proper vertical alignment */
+    }
+    
+    .star {
+      width: 20px;
+      height: 20px;
+    }
+    
+    .starLine {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px; /* Space between stars */
+      margin-bottom: 4px; /* Reduces space below the stars */
+    }
+    
+    .review {
+      font-size: 14px; /* Keeps text readable */
+      color: gray;
+      margin-top: 0; /* Removes any extra space above the review text */
+    }
+    /* Aman part end */
+  .spice-level {
+      color: #e63946;
+    }
+    
+    .card-footer .btn {
+      font-size: 0.9rem;
+      padding: 15px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+    
+    .card-footer .btn span {
+      font-size: 1.2rem;
+    }
+    
+    .btn-success:hover {
+      background-color: #1d9458;
+    }
+    
+    .btn-primary:hover {
+      background-color: #1a6fb5;
+    }
+    /* Col 2 end */
+    .card {
+      max-width: 100%; /* Ensures it fits within col-4 */
+    }
+    
+    .card-header {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    
+    .list-group-item {
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .list-group-item:hover {
+      background-color: #f8f9fa;
+    }
+    
+    .list-group-item.active {
+      background-color: #0d6efd;
+      color: white;
+    }
+    /* Maaz part start */
+    .content{
+      background-color: #fbfbfb;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      font-family: poppins;
+      margin-top: 0px;
+      border-radius:20px ;
+      margin-left:10px ;
+      margin-right:60px ; 
+      
+  }
+  .content-1{
+      align-items: center;
+      justify-content: space-around;
+      flex: 1;
+      padding:30px;
+      width: 496px; 
+      padding-left: 80px  ;
+  }
+  .content-2{
+      align-items: center;
+      justify-content:space-around;
+      flex: 1;
+      padding:30px;
+      width: 496px; 
+      padding-left: 80px  ;
+  
+  }
+  .content-3{
+      align-items: center;
+      justify-content: space-around;
+      color: #fbfbfb;
+      background-color:#03081F;
+      font-weight: 400;
+      flex: 1;
+      padding: 30px;
+      padding-left: 80px  ; 
+      border-radius: 0px 20px 20px 0px;
+      
+  }
+  .content h2{
+      font-size: 32px;
+      font: 700;
+      display: flex;
+      gap: 3px;
+  
+  }
+  span{
+      font-weight: 800;
+  }
+  /* Maaz part end */
+  
+  /* review section start */
+  body , html{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+  }
+  .reviewContainer{
+    background-color: #D9D9D9;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding: 40px;
+    gap: 50px;
+  }
+  .rating2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 140px; /* Increased width */
+    height: 160px; /* Increased height */
+    justify-content: space-between;
+    border-radius: 12px;
+    top: 510px;
+    right: 300px;
+    padding: 10px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Ensures padding does not overflow */}
+    .rate {
+        font-size: 70px; /* Adjusted font size */
+        font-weight: 400;
+        margin: 0; /* Removes any default margin */
+        line-height: 1; /* Ensures proper vertical alignment */
+    }
+    
+    .star {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .starLine {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px; /* Space between stars */
+        margin-bottom: 4px; /* Reduces space below the stars */
+    }
+    
+    .review {
+        font-size: 14px; /* Keeps text readable */
+        color: gray;
+        margin-top: 0; /* Removes any extra space above the review text */
+    }
+    .reviewHeading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .RH{
+        font-size: 44px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    .reviewArrows{
+        display: flex;
+        width: 185px;
+        height: 75px;
+    }
+    .arrow {
+        display: flex;              /* Ensures content is a flex container */
+        justify-content: center;    /* Horizontally centers the arrow */
+        align-items: center;        /* Vertically centers the arrow */
+        height: 75px;
+        width: 75px;
+        margin: 0px 10px;
+        border-radius: 50%;
+        background-color: #FC8A06;
+        color: black;
+        border-style: none;
+        font-weight: bold;          /* Makes the text bold */
+    }
+    
+    .fA, .bA {
+        font-size: 30px;
+        font-weight: 500;          /* Ensures the arrow text is bold */
+    }
+    .reviewCards{
+        display: flex;
+        gap: 15px;
+        height: 274px;
+        
+    }
+    .RCard{
+        width: 496px;
+        background-color: white;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }  
+    .cardHeader{
+        display: flex;
+        justify-content: space-between;
+        height: 54px;
+    }
+    .dp{
+        height: 44px;
+        width: 44px;
+        margin-top: 2px;
+    }
+    .line{
+        width: 2px;
+        height: 50px;
+        background-color: #FC8A06;
+    }
+    .cardHeading{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 45px;
+        width: 112px;
+    }
+    .N{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0%;
+    }
+    .A{
+        color: #FC8A06;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: -20px;
+    }
+    .timeRate{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 45px;
+    }
+    .timeDate{
+        display: flex;
+        justify-content: space-between;
+        gap: 4px;
+    }
+    .Mstar{
+        height: 17px;
+        width: 17px;
+  
+    }
+    .timeSpan{
+        width: 24px;
+        height: 24px;
+    }
+    .date{
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+    .cContent{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+  /* review section end */
+  /* * Footer css */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px 40px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    
+  }
+  
+  .brand-section {
+    max-width: 25%;
+  }
+  
+  .brand-section h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .brand-section h3 span {
+    color: #FC8A06;
+  }
+  
+  .app-links img {
+    width: 120px;
+    margin: 10px 0;
+  }
+  
+  .newsletter-section {
+    max-width: 30%;
+    text-align: center;
+  }
+  
+  .newsletter-section h4 {
+    font-size: 18px;
+  }
+  
+  .newsletter-section form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .newsletter-section input {
+    flex: 1;
+    max-width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .newsletter-section button {
+    background-color: #FC8A06;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .newsletter-section p {
+    font-size: 12px;
+  }
+  
+  .newsletter-section p {
+    color: #FC8A06;
+    border:solid 4px #f8f8f8;
+    border-radius:6px ;
+    text-decoration: none;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    margin: 0 5px;
+  }
+  
+  .links-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .links-section h4 {
+    font-size: 16px;
+  }
+  
+  .links-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links-section ul li {
+    margin: 5px 0;
+  }
+  
+  .links-section ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 100%;
+  }
+  
+  .footer-bottom ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0x;
+  }
+  
+  .footer-bottom ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+  }
+  /* Footer Css end */
+    

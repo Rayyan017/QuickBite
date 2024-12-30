@@ -1,0 +1,63 @@
+/* Apply Flexbox to the body to ensure the footer stays at the bottom // Apply Flexbox to the body to ensure the footer stays at the bottom */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content wrapper that pushes the footer down */
+.content-wrapper {
+    flex-grow: 1; /* Ensures this content takes up available space */
+}
+
+/* Style for the footer (first footer) */
+.big-footer {
+    background-color: #f0f0f0; /* Example background color */
+    padding: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Footer bottom */
+.footer-bottom {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    gap:0;
+    
+     /* Ensures the footer-bottom stays at the bottom */
+}
+.big-footer ul li{
+  text-decoration: none;
+
+}
+
+.footer-bottom-content {
+  display:flex ;
+  justify-content: space-between;
+    max-width: 1200px;
+    margin:  auto;
+    padding:  20px;
+}
+
+.footer-bottom ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.footer-bottom ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom ul li a:hover {
+    text-decoration: underline;
+}

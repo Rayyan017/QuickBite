@@ -1,0 +1,545 @@
+.card-img-top:hover {
+  animation: pulse 1s alternate;
+}
+#fries:hover {
+  animation: pulse 1s alternate;
+}
+.body{
+  padding: 0;
+  margin: 0;
+}
+#navbar{
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+  
+}
+.nav-link{
+
+background-color: #FC8A06;
+padding-left: 50px;
+margin-left: 50px; 
+border-radius: 20px; 
+width: 100px;
+color: white;
+
+
+
+}
+#navbrand{
+  
+  color: black;
+  
+  
+  
+}
+.navImage{
+    width: 150px;
+    height: 150px; 
+    padding-top: 0%;
+    size: 400px;
+}
+#home{
+    padding-left: 400px;
+}
+.off{ color: black;
+    
+    
+    margin-top: 50px;
+    margin-left: 130px;
+    
+}
+/* Navbar Css end */
+/* Aman part */
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'poppins';
+}
+
+.heroContainer{
+  border-radius: 20px;
+  width: 1300px;
+  height: 610px;
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#03081F ;
+}
+.left-section{
+  padding-left: 100px;
+  height: 330px;
+  width: 510px;
+  display: flex;
+  flex-direction: column;
+}
+.heroP{
+  font-weight: 300;
+  color: white;
+  width: 383px;
+  height: 66px;
+  font-size: medium;
+
+}
+.heroH{
+  font-weight: 600;
+  color: white;
+  font-size: 54px;
+  line-height: 56px;
+}
+span{
+  color: #FC8A06;
+}
+
+.heroP2{
+  font-size: 13px;
+  line-height: 66px;
+  color: white;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Use gap to control spacing */
+}
+
+.input {
+  width: 350px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional */
+}
+
+.btnn {
+  font-family: "Poppins";
+  background-color: #FC8A06;
+  color: white;
+  height: 50px;
+  font-weight: 700;
+  width: 120px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 0 20px ; /* Add padding for better appearance */
+  padding-top: 12px;
+}
+
+.btnns{
+  margin-bottom: 100px;
+  
+}
+.heroBW{
+  position: absolute;
+  opacity: 70%;
+  top: 82px;
+  left: 270px;
+  width: 805px;
+  height: 527px;
+
+}
+.hero-image{
+  position: absolute;
+  width: 465px;
+  height: 541px;
+  top: 69px;
+  left: 600px;
+  z-index: 5;
+}
+.stepsBG{
+  width: 435px;
+  height: 565px;
+  background-color: #FC8A06;
+  position: absolute;
+  z-index: 1;
+  left: 865px;
+  border-radius: 180px 0px 0px 0px; ;
+  top: 45px;
+}
+.step-content{
+width: 270px;
+height: 100px;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 2px;
+position: absolute;
+border-radius: 20px;
+padding: 10px;
+z-index: 3;
+
+}
+#step1{
+  left: 100px;
+  top: 50px;
+}
+#step2{
+  left: 190px;
+  top: 205px;
+}
+#step3{
+  left: 160px;
+  top: 385px;
+}
+.miniLogo{
+  width: 58px;
+  height: 15px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.strong{
+  padding: 0%;
+  font-size: 12px;
+}
+.step-number{
+  position: absolute;
+  font-size: 66px;
+  font-weight: 600;
+  color: transparent;
+  -webkit-text-stroke: 1px white; 
+  z-index: 2;
+}
+#S1{
+  left: 350px;
+  top: -30px;
+}
+#S2{
+  left: 158px;
+  top: 140px;
+}
+#S3{
+  left: 380px;
+  top: 300px;
+}
+/* aman part end */
+/* ffooter part */
+.inputt {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional */
+}
+
+.btnnn {
+  font-family: "Poppins";
+  background-color: #FC8A06;
+  color: white;
+  height: 30px;
+  font-weight: 700;
+  width: 120px;
+  border-radius: 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 0 20px ; /* Add padding for better appearance */
+  padding-top: 12px;
+}
+/* Footer css */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.brand-section {
+  max-width: 25%;
+}
+
+.brand-section h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.brand-section h3 span {
+  color: #FC8A06;
+}
+
+.app-links img {
+  width: 120px;
+  margin: 10px 0;
+}
+
+.newsletter-section {
+  max-width: 30%;
+  text-align: center;
+}
+
+.newsletter-section h4 {
+  font-size: 18px;
+}
+
+.newsletter-section form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.newsletter-section input {
+  flex: 1;
+  max-width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.newsletter-section button {
+  background-color: #FC8A06;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.newsletter-section p {
+  font-size: 12px;
+}
+
+.newsletter-section p {
+  color: #FC8A06;
+  border:solid 4px #f8f8f8;
+  border-radius:6px ;
+  text-decoration: none;
+}
+
+.social-icons a img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.links-section h4 {
+  font-size: 16px;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-section ul li {
+  margin: 5px 0;
+}
+
+.links-section ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border: 100%;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-bottom ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+}
+/* footer css end */
+
+/* Aman part 2  */
+.downloadContainer{
+  width: 1299px;
+  height: 611px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 100px;
+  background-color: #E0E1DC;
+  position: relative;
+}
+.downloadImgBW{
+  position: absolute;
+  width: 832px;
+  height: 651px;
+  opacity: 50%;
+  top: -60px;
+  z-index: 1;
+}
+.downloadImg{
+  width: 832px;
+  height: 651px;
+  position: absolute;
+  z-index: 3;
+  top: -40px;
+  left: 5px;
+}
+.content{   
+      display: flex;
+      flex-direction: column;
+      font-family: "poppins";
+      position: absolute;
+      right: -30px; 
+      top: 50%; 
+      transform: translateY(-50%); 
+      z-index: 2; 
+      gap: 1px;
+  
+
+}
+.download-button{
+  width: 412px;
+  height: 61px;
+  margin-left: 170px;
+  
+}
+.logo{
+  font-family: "poppins";
+  font-size: 60px;
+  font-weight: 700;
+  width: 613px;
+  height: 82px;
+  margin-left: 30px;
+}
+.Quick{
+  color:#FC8A06 ;
+}
+.bar{
+  width: 600px;
+  height: 90px;
+  background-color:#03081F ;
+  margin-right: 50px;
+  border-radius: 120px;
+  color: white;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  
+}
+.bar-word{
+  text-decoration: underline;
+  color: #FC8A06;
+}
+.download-para{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  height: 36px;
+  width: 488px;
+  margin-left: 130px;
+}
+body,html{
+  padding: 0;
+  margin: 0;
+  font-family: "poppins";
+}
+.feature-content{
+  margin-top: 100px;
+  width: 1360px;
+  height: 425px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.chef-card{
+  background-image:url("chef.png");
+  background-size: cover; /* Adjust the size to cover the entire div */
+  background-position: center; /* Center the image in the div */
+  background-repeat: no-repeat;
+}
+.chef-card,.rider-card{
+  width: 600px;
+  height: 425px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+
+}
+.rider-card{
+  background-image:url("rider.png");
+  background-size: cover; /* Adjust the size to cover the entire div */
+  background-position: center; /* Center the image in the div */
+  background-repeat: no-repeat;
+  
+}
+.upper-div{
+  width: 288px;
+  height: 63px;
+  position: absolute;
+  color: black;
+  background-color: white;
+  border-radius: 0 0 12px 12px;
+  font-weight: 600;
+  left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2px;
+  left: 70px;
+  top: 160px;
+}
+.contentP{
+  text-align: start;
+  font-size: 18px;
+  color: #FC8A06;
+}
+.content-heading{
+  text-align: start;
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+}
+.content-button{
+  width: 205px;
+  height: 52px;
+  border-radius: 120px;
+  background-color: #FC8A06;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*  Aman part 2 end */
+

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navbar Css Start -->
+    <div style="height: 50px; width: 96%;margin-left: 30px;border-radius: 10px; background-color:#03081F">
+      <div class="container" style="color: white;">
+        <div class="row">
+          <div class="col" style="margin-top: 10px;">
+            <p><img src="star.png" alt="" >Get 5% OFF your first order </p>
+          </div>
+          <div class="col" style="margin-top: 10px;">
+            <p><img src="Location.png" alt="" style="color: white;">Bahria University, Karsaz campus</p>
+          </div>
+          <div class="col" style="margin-top: 10px;">
+            <p><img src="Full Shopping Basket.png" alt="" style="color: white; height: 30px; padding-right: 5px;" >Secure Transections</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="navbrand"><h3>Quick<span style="font-weight: 800;">.Bite</span></h3></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-auto" style="padding-left: 150px;"> 
+              <a class="nav-link active" href="index.html" style="padding-left: 25px;color: white;">Home</a> 
+            </li>
+            <li class="nav-item" style="padding-left: 150px;">
+              <a class="nav-link" href="index2.html" target="_blank" style="padding-left: 20px;color: white; width: 150px;">Browse Menu</a>
+            </li>
+            <li class="nav-item dropdown" style="padding-left: 150px;">
+              <a  style="border-radius: 20px; ;color: white; width: 150px; padding-left: 20px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Restaurants
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown"style="margin-top:5px;position: absolute; left: 200px;">
+                <li><a class="dropdown-item" target="_blank" href="https://kababjees.com/" >Kababjees</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://www.kfcpakistan.com/">KFC</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://mcdonalds.com.pk/">McDonald’s</a></li>
+                <li><a class="dropdown-item" target="_blank" href="https://burgerlab.com.pk/">Burger Lab</a></li>              
+              </ul>
+            </li>
+           
+          </ul>
+          <!-- <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+    <!-- Nav bar ends  -->
+
+    <!-- Aman part -->
+    <div class="heroContainer">
+      <div class="left-section">
+          <p class="heroP">Order Restaurant food, takeaway and groceries.</p>
+          <h1 class="heroH">Feast Your Senses, <span>Fast and Fresh</span></h1>
+          
+          <p class="heroP2">Enter a postcode to see what we deliver</p>
+          <form class="search-bar">
+              <input type="text" class="input" placeholder="e.g. EC4R 3TE">
+              <button type="submit" class="btnn" style="padding-bottom: 12px;"><a href="" style="padding-bottom: 20px;text-decoration: none;color: white;">Search</a></button>
+          </form>
+      </div>
+      <img src="pizza-ladyBW.png" alt="pizza-ladyBW" class="heroBW">
+      <img src="pizza-lady.png" alt="Pizza Lady" class="hero-image">
+      <div class="right-section">
+         
+          <div class="stepsBG">
+              <div class="step" >
+                  <p class="step-number" id="S1">1</p>
+                  <div class="step-content" id="step1">
+                      <p class="miniLogo">QuickBite</p>
+                      <p class="strong"><strong>We've received your order!</strong><br>
+                          Awaiting restaurant acceptance</p>
+                  </div>
+              </div>
+              <div class="step">
+                  <p class="step-number" id="S2">2</p>
+                  <div class="step-content" id="step2">
+                      <p class="miniLogo">QuickBite</p>
+                      <p class="strong"><strong>Order Accepted!</strong><br>
+                      Your order will be delivered shortly</p>
+                  </div>
+              </div>
+              <div class="step">
+                  <p class="step-number" id="S3">3</p>
+                  <div class="step-content" id="step3">
+                      <p class="miniLogo">QuickBite</p>
+                      <p class="strong"><strong>Your rider's nearby 🎉</strong><br>
+                      They're almost there – get ready!</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+     <!-- aman part end -->
+<!-- Grid system: Cards  -->
+ <div> <p class="off">Up to -40% QuickBite.pk exclusice deals</p></div>
+<div class="container" >
+  <div class="row">
+    <a href="#" style="text-decoration: none; color: white;" class="fries"><div class="col-4">
+      <div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="Group 8.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title "  style="position: absolute; top: 150px; left: 10px; color: white;"><p class="fries">Givini Foods </p></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <a href="#" style="text-decoration: none; color: white;" ><div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="col 3 img.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: white;">Kabadjees
+         </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <a href="#" style="text-decoration: none; color: white;" ><div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="col1 img.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: white;">Karachi Broast</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- new card  -->
+<div> <p class="off">QuickBite.pk popular catogeries</p></div>
+<div class="container">
+  <div class="row">
+    <!-- Column 1 -->
+    <div class="col-2">
+      <a href="#" style="text-decoration: none; color: white;">
+        <div class="card" style="width: 100%; height: 200px; position: relative;">
+          <img src="Rectangle 13.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="position: absolute; font-size: 15px; top: 150px; left: 10px; color:black;">Fast food <p style="color: #FC8A06; font-size: 13px;">22 Restaurants</p></h5>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Column 4 -->
+    <div class="col-2">
+      <a href="#" style="text-decoration: none; color: white;">
+        <div class="card" style="width: 100%; height: 200px; position: relative;">
+          <img src="Rectangle 15.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="position: absolute; font-size: 15px;top: 150px; left: 10px; color: black;">Salads<p style="color: #FC8A06; font-size: 13px;">5 Restaurants</p></h5>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Column 5 -->
+    <div class="col-2">
+      <a href="#" style="text-decoration: none; color: white;">
+        <div class="card" style="width: 100%; height: 200px; position: relative;">
+          <img src="Rectangle 17.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="position: absolute; font-size: 15px;top: 150px; left: 10px; color:black;">Pasta <p style="color: #FC8A06; font-size: 13px;">17 Restaurants</p></h5>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Column 6 -->
+    <div class="col-2">
+      <a href="#" style="text-decoration: none; color: white;">
+        <div class="card" style="width: 100%; height: 200px; position: relative;">
+          <img src="Rectangle 19.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="position: absolute;font-size: 15px; top: 150px; left: 10px; color:black">Pizza <p style="color: #FC8A06; font-size: 13px;">22 Restaurants</p></h5>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Column 7 -->
+    <div class="col-2">
+      <a href="#" style="text-decoration: none; color: white;">
+        <div class="card" style="width: 100%; height: 200px; position: relative;">
+          <img src="Rectangle 21.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: black;font-size: 15px;">Breakfast<p style="color: #FC8A06; font-size: 13px;">14 Restaurants</p></h5>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Column 8 -->
+    <div class="col-2">
+      <a href="#" style="text-decoration: none; color: white;">
+        <div class="card" style="width: 100%; height: 200px; position: relative;">
+          <img src="Rectangle 23.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: black;font-size: 15px;">Soup <p style="color: #FC8A06; font-size: 13px;">7 Restaurants</p></h5>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+ <!-- aman part 2 -->
+ <div class="downloadContainer">
+  <img src="downloadImgBW.png" alt="friends laughing bw " class="downloadImgBW">
+  <img src="downloadImg.png" alt="friends laughing" class="downloadImg">
+  <div class="content">
+      <h1 class="logo"><span class="Quick">Quick</span>Bite is more</h1>
+      <div class="bar"><p style="padding-left: 90px;"><span class="bar-word">Personalised</span> & Instant</div></p>
+      <p class="download-para">Download the QuickBite app for faster ordering</p>
+      <img src="download-buttons.png" alt="app store play store" class="download-button">
+  </div>
+</div>
+<div class="feature-content">
+  <div class="chef-card">
+      <div class="upper-div"><p class="upperP">Earn more with lower fees</p></div>
+      <div class="content1">
+          <p class="contentP">Sign up as a business</p>
+          <h1 class="content-heading">Partner with us</h1>
+          <button class="content-button">Get started</button>
+      </div>
+  </div>
+  <div class="rider-card">
+      <div class="upper-div">
+          <p class="upperP">Avail exclusive perks</p>
+      </div>
+      <div class="content1">
+          <p class="contentP">Sign up as a rider</p>
+          <h1 class="content-heading">Ride with us</h1>
+          <button class="content-button">Get started</button>
+      </div>
+  </div>
+  
+</div>  
+ <!-- aman part 2 end  -->
+ <!-- new card -->
+ <div> <p class="off">Popular Restaurants</p></div>
+ <div class="container" >
+   <div class="row">
+     <a href="#" style="text-decoration: none; color: white;"><div class="col-2">
+       <div class="card" style="width: 100%; height: 200px; position: relative;">
+         <img src="grp 13.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" > </a>
+         </div>
+       </div>
+     </div>
+     <div class="col-2">
+      <div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="Group 16.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="Group 17.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="Group 19.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="Group 20.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="card" style="width: 100%; height: 200px; position: relative;">
+        <img src="Group 21.png" class="card-img-top" alt="...">
+        
+      </div>
+    </div>
+   </div>
+ </div>
+    </div>
+   
+    <!-- Footer Css -->
+    <footer  style="margin-top: 50px;">
+      <div class="footer-container">
+        <!-- Brand Section -->
+        <div class="brand-section">
+          <h3>Quick<span>.Bite</span></h3>
+          <div class="app-links">
+            <img src="Vector.png" alt="Download on the App Store" style="background-color: black; padding: 10px; border-radius: 5px; height: 40px;">
+            <img src="Group.png">
+          </div>
+          <p>Company #490039–445, Registered with House of Companies.</p>
+        </div>
+    
+        <!-- Newsletter Section -->
+        <div class="newsletter-section">
+          <h4>Get Exclusive Deals in your Inbox</h4>
+          <form>
+            <input type="email" placeholder="youremail@gmail.com">
+            <button type="submit">Subscribe</button>
+          </form>
+          <p>We won’t spam, read our <a href="#">email policy</a>.</p>
+          <div class="social-icons">
+            <a href="#"><img src="Facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="Instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="TikTok.png" alt="TikTok"></a>
+            <a href="#"><img src="Snapchat.png" alt="Snapchat"></a>
+          </div>
+        </div>
+    
+        <!-- Links Section -->
+        <div class="links-section">
+          <div class="legal-links">
+            <h4>Legal Pages</h4>
+            <ul>
+              <li><a href="#">Terms and Conditions</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+              <li><a href="#">Modern Slavery Statement</a></li>
+            </ul>
+          </div>
+          <div class="important-links">
+            <h4>Important Links</h4>
+            <ul>
+              <li><a href="#">Get Help</a></li>
+              <li><a href="#">Add Your Restaurant</a></li>
+              <li><a href="#">Sign Up to Deliver</a></li>
+              <li><a href="#">Create a Business Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>Quick.bite Copyright 2024. All Rights Reserved.</p>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Do not sell or share my personal information</a></li>
+        </ul>
+      </div>
+    </footer>
+  <!-- Footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
