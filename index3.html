@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quick.Bite</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -38,13 +38,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item mx-auto" style="padding-left: 150px;"> 
-            <a class="nav-link active" href="index.html" style="padding-left: 25px;color: white;">Home</a> 
+            <a class="nav-link active" href="index.html" style="padding-left: 25px;color: white;"id="home">Home</a> 
           </li>
           <li class="nav-item" style="padding-left: 150px;">
-            <a class="nav-link" href="index2.html" target="_blank" style="padding-left: 20px;color: white; width: 150px;">Browse Menu</a>
+            <a class="nav-link" href="index2.html" target="_blank" style="padding-left: 20px;color: white; width: 150px;" id="home">Browse Menu</a>
           </li>
           <li class="nav-item dropdown" style="padding-left: 150px;">
-            <a  style="border-radius: 20px; ;color: white; width: 150px; padding-left: 20px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a  id="home" style="border-radius: 20px; ;color: white; width: 150px; padding-left: 20px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Restaurants
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown"style="margin-top:5px;position: absolute; left: 200px;">
@@ -209,26 +209,81 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                
-                <form>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label" style="margin-left: 20px; margin-top: 10px;">Account Name</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 50%;margin-left: 20px;">
-                    <div id="emailHelp" class="form-text"></div>
+                <form action="thankyou.html" method="get">
+                  <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label"style="margin-left: 10px; margin-top:10px">First name</label>
+                      <input type="text" style="margin-left: 10px;" class="form-control" id="validationCustom01" value="" required>
+                      <div class="valid-feedback" >
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label" style="margin-left: 10px; margin-top: 5px;">Last name</label>
+                      <input type="text" style="margin-left: 10px;" class="form-control" id="validationCustom02" value="" required>
+                      
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label has-validation "style="margin-left: 10px; margin-top:5px"> Account Number</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend" style="margin-left: 10px;"></span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required autocomplete="off">
+                        <div class="invalid-feedback">
+                          Please Enter Account Number.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label"style="margin-left: 10px; margin-top:5px">Address</label>
+                      <input type="text" style="margin-left: 10px;" class="form-control" id="validationCustom03" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid Address.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom04" class="form-label" style="margin-left: 10px; margin-top: 5px;">City</label>
+                      <select class="form-select" id="validationCustom04" required style="margin-left: 10px;">
+                        <option selected disabled value="" style="margin-left: 10px;">Choose</option>
+                        <option>Karachi</option>
+                        <option>Lahore</option>
+                        <option>Islamabad</option>
+                        <option>Quetta</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="validationCustom05" class="form-label" style="margin-left: 10px; margin-top: 5px;">Zip</label>
+                      <input type="text" class="form-control" id="validationCustom05" style="margin-left: 10px;" required>
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        
+                        
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-body">
+                      <p>Your selected item: <span id="itemName"></span></p>
+                      <p>Total Amount: <span id="totalPrice"></span></p>
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"style="margin-left: 20px;">Bank Number</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1"style="width: 50%;margin-left: 20px;">
-                  </div>
-                  <div class="modal-body">
-                    <p>Your selected item: <span id="itemName"></span></p>
-                    <p>Total Amount: <span id="totalPrice"></span></p>
-                </div>
+                    <div class="col-12">
+                    <button class="btn btn-primary" type="submit" style="margin-left: 120px; width: 50%; margin-bottom: 50px;">Pay</button>
+                    </div>
+                  </form>
+                  
                  
                 </form>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <a href="thankyou.html"><button type="button" class="btn btn-primary">Pay</button></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
