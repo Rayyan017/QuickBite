@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quick.Bite</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -46,13 +46,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item mx-auto" style="padding-left: 150px;"> 
-              <a class="nav-link active" href="index.html" style="padding-left: 25px;color: white;">Home</a> 
+              <a class="nav-link active" href="index.html" style="padding-left: 25px;color: white;" id="home">Home</a> 
             </li>
             <li class="nav-item" style="padding-left: 150px;">
-              <a class="nav-link" href="index2.html" target="_blank" style="padding-left: 20px;color: white; width: 150px;">Browse Menu</a>
+              <a class="nav-link" href="index2.html" target="_blank" style="padding-left: 20px;color: white; width: 150px;"id="home">Browse Menu</a>
             </li>
             <li class="nav-item dropdown" style="padding-left: 150px;">
-              <a  style="border-radius: 20px; ;color: white; width: 150px; padding-left: 20px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a id="home" style="border-radius: 20px; ;color: white; width: 150px; padding-left: 20px;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Restaurants
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown"style="margin-top:5px;position: absolute; left: 200px;">
@@ -79,11 +79,12 @@
           <p class="heroP">Order Restaurant food, takeaway and groceries.</p>
           <h1 class="heroH">Feast Your Senses, <span>Fast and Fresh</span></h1>
           
-          <p class="heroP2">Enter a postcode to see what we deliver</p>
-          <form class="search-bar">
-              <input type="text" class="input" placeholder="e.g. EC4R 3TE">
-              <button type="submit" class="btnn" style="padding-bottom: 12px;"><a href="" style="padding-bottom: 20px;text-decoration: none;color: white;">Search</a></button>
+          <!-- <p class="heroP2">Enter a postcode to see what we deliver</p> -->
+          <form target="_blank" action="https://www.google.com/search" method="GET">
+            <input type="text" class="input" name="q" placeholder="Search on Google">
+            <button type="submit" class="btnn" style="padding-bottom: 12px; padding-bottom: 20px; text-decoration: none; color: white; margin-top: 10px;">Search</button>
           </form>
+          
       </div>
       <img src="pizza-ladyBW.png" alt="pizza-ladyBW" class="heroBW">
       <img src="pizza-lady.png" alt="Pizza Lady" class="hero-image">
@@ -134,7 +135,7 @@
       <a href="#" style="text-decoration: none; color: white;" ><div class="card" style="width: 100%; height: 200px; position: relative;">
         <img src="col 3 img.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: white;">Kabadjees
+          <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: white;">Kababjees
          </a>
         </div>
       </div>
@@ -205,7 +206,7 @@
         <div class="card" style="width: 100%; height: 200px; position: relative;">
           <img src="Rectangle 21.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: black;font-size: 15px;">Breakfast<p style="color: #FC8A06; font-size: 13px;">14 Restaurants</p></h5>
+            <h5 class="card-title" style="position: absolute; top: 150px; left: 10px; color: black;font-size: 15px;">Sandwich<p style="color: #FC8A06; font-size: 13px;">14 Restaurants</p></h5>
           </div>
         </div>
       </a>
