@@ -571,4 +571,7 @@
     padding: 15px;
   }
   /* Footer Css end */
-    
+  #home:hover{
+    background-color:#03081F;
+    animation: pulse 1s alternate;
+  }  
